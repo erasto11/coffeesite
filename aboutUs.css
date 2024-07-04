@@ -1,0 +1,41 @@
+html{
+    background-color: #a86538;
+}
+.image{
+    width: 40%;
+  
+    padding: 20px 40px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+
+}
+.container{
+display: flex;
+align-items: center;
+gap: 10rem;
+height: 100vh;
+}
+img{
+    object-fit:fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+button{
+    width: 30%;
+    padding: 5px 15px;
+    color: white;
+    background-color:rgb(27, 13, 2);
+    border: none;
+    margin-top: 10px;
+}
+h1{
+font-size: 40px;
+}
+p{
+    font-size: medium;
+}

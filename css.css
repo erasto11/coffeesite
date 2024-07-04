@@ -1,0 +1,54 @@
+html{
+    background-image: url("./IMAGE/vecteezy_a-cup-of-coffee-with-smell-illustration_24537413\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+    background-color: rgba(73, 29, 4, 0.877);
+    align-content: center;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+
+    
+
+}
+li{
+    list-style:none;
+    flex-basis: px;
+    padding: 8px 0px ;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+.flex-container{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-content: center;
+margin-top: 8rem;
+
+}
+p,h1{
+    color: #f8ece5;
+}
+h1{
+    font-size: 4em;
+    margin-bottom: 5px;
+}
+p{
+    font-size: large;
+    margin-top: 0px;
+}
